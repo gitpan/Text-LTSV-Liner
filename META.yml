@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.11.1, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Minilla/v0.13.0, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,13 +28,11 @@ no_index:
 provides:
   Text::LTSV::Liner:
     file: lib/Text/LTSV/Liner.pm
-    version: 0.01
+    version: 0.02
 requires:
   perl: 5.008001
 resources:
   bugtracker: https://github.com/key-amb/perl-Text-LTSV-Liner/issues
   homepage: https://github.com/key-amb/perl-Text-LTSV-Liner
   repository: git://github.com/key-amb/perl-Text-LTSV-Liner.git
-version: 0.01
-x_contributors:
-  - 'Yasutake Kiyoshi <yasutake.kiyoshi@dena.jp>'
+version: 0.02

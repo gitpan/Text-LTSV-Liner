@@ -7,5 +7,6 @@ bin/ltsvl.pl
 cpanfile
 lib/Text/LTSV/Liner.pm
 t/00_compile.t
+t/01_parse.t
 META.yml
 MANIFEST

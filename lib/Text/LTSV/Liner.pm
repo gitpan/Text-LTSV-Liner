@@ -5,7 +5,7 @@ use warnings;
 
 use Term::ANSIColor;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub new {
     my $class = shift;
@@ -20,10 +20,10 @@ sub run {
     my $self = shift;
     my $line = shift;
     chomp($line);
-    print $self->_parse_line($line) . "\n";
+    print $self->parse($line) . "\n";
 }
 
-sub _parse_line {
+sub parse {
     my $self = shift;
     my $line = shift;
 
