@@ -28,11 +28,11 @@ no_index:
 provides:
   Text::LTSV::Liner:
     file: lib/Text/LTSV/Liner.pm
-    version: 0.02
+    version: 0.03
 requires:
   perl: 5.008001
 resources:
   bugtracker: https://github.com/key-amb/perl-Text-LTSV-Liner/issues
   homepage: https://github.com/key-amb/perl-Text-LTSV-Liner
   repository: git://github.com/key-amb/perl-Text-LTSV-Liner.git
-version: 0.02
+version: 0.03

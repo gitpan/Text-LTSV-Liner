@@ -55,7 +55,7 @@
    "provides" : {
       "Text::LTSV::Liner" : {
          "file" : "lib/Text/LTSV/Liner.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -69,5 +69,5 @@
          "web" : "https://github.com/key-amb/perl-Text-LTSV-Liner"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
